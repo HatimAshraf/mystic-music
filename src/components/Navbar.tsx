@@ -19,7 +19,7 @@ function Nabvar({ className }: { className?: string }) {
           ></MenuItem>
         </Link>
         <Link href='/courses'>
-          <MenuItem setActive={setActive} active={active} item='Our courses'>
+          <MenuItem setActive={setActive} active={active} item='Our Courses'>
             <div className='flex flex-col space-y-4 text-sm'>
               <HoveredLink href='/Courses'>All Courses</HoveredLink>
               <HoveredLink href='/'>Basic Music Theory</HoveredLink>
