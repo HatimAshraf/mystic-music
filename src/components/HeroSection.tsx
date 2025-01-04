@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { Spotlight } from '@/components/ui/Spotlight';
 import { Button } from '@/components/ui/moving-border';
+import { BackgroundLines } from '@/components/ui/background-lines';
 
 const HeroSection = () => {
   return (
-    <div className='relative mx-auto overflow-hidden h-screen md:h-[40rem] w-full bg-grid-white/[0.02] rounded-md flex flex-col justify-center items-center py-10 md:py-0'>
+    <BackgroundLines className='relative mx-auto overflow-hidden h-screen md:h-[40rem] w-full bg-grid-white/[0.02] rounded-md flex flex-col justify-center items-center py-10 md:py-0'>
       <Spotlight
         className='-top-40 left-0 md:left-60 md:-top-20 animate-spotlight'
         fill='white'
@@ -29,7 +30,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </BackgroundLines>
   );
 };
 
